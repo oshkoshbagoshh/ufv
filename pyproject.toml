@@ -3,8 +3,10 @@ name = "ufv"
 version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
-    "fastapi",
-    "uvicorn",
-    "pandas",
+    "fastapi==0.159.1",
+    "uvicorn==0.54.0",
+    "pandas==3.0.6",
     "jupyter",
+    "pandas-stubs==3.0.5.260914",
+    "pyrefly==1.4.0",
 ]
